@@ -1,0 +1,5 @@
+#!/bin/bash
+cp=$(cd $(dirname $0); pwd)/../classes
+main=lisp.Main
+
+/usr/bin/java -cp ${cp} ${main} $*
